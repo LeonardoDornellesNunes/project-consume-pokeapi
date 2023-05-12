@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-transform: capitalize;
+}
+
+a {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.button {
+    height: 100%;
+    width: 100%;
+
+    border: none;
+}
+
+.buttonPast {
+    background-color: whitesmoke;
+
+    font-size: large;
+    text-transform: capitalize;
+
+    border-right: 1px solid black;
+    border-bottom-left-radius: 25px;
+}
+
+.buttonPast:hover {
+    background-color: gainsboro;
+}
+
+.buttonNext {
+    background-color: whitesmoke;
+
+    font-size: large;
+    text-transform: capitalize;
+
+    border-left: 1px solid black;
+    border-bottom-right-radius: 25px;
+}
+
+.buttonNext:hover {
+    background-color: gainsboro;
+}
+
+.rotateButton {
+    background-color: whitesmoke;
+
+    font-size: large;
+    text-transform: capitalize;
+
+    border-top: 3px solid black;
+    border-bottom: 4px solid black;
+}
+
+.rotateButton:hover {
+    background-color: gainsboro;
+}
+
+.cardPokemon {
+    height: 350px;
+    width: 230px;
+
+    border: 4px double black;
+    border-radius: 25px;
+}
+
+.infoPokemon {
+    height: 90%;
+    width: 100%;
+}
+
+.containerPokemon {
+    height: 70%;
+    width: 100%;
+
+    background-color: #d10000;
+
+    border-bottom: 3px solid black;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageSprite {
+    height: 80%;
+    width: 90%;
+
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+    object-fit: cover;
+}
+
+.statusPokemon {
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.containerName {
+    width: 100%;
+
+    background-color: black;
+    color: whitesmoke;
+
+    border-bottom: 3px solid black;
+
+    display: flex;
+    justify-content: center;
+}
+
+.containerName a {
+    font-size: larger;
+}
+
+.containerHeight {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerWeight {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonPokemon {
+    height: 10%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.buttonsMenu {
+    height: 10%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Pokemon Api Consume - Project</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <!-- cardPokemon contain all infomation in one place -->
+        <div class="cardPokemon">
+            <!-- infoPokemon contain all infomation about one pokemon -->
+            <div class="infoPokemon">
+                <!-- containerPokemon contain the future image -->
+                <div class="containerPokemon"></div>
+                <!-- statusPokemon contain all text infomation about one pokemon -->
+                <div class="statusPokemon">
+                    <div class="containerName">
+                        <a id="namePokemon"></a>
+                    </div>
+                    <div class="containerHeight">
+                        <p>height</p>
+                        <a id="heightPokemon"></a>
+                    </div>
+                    <div class="containerWeight">
+                        <p>weight</p>
+                        <a id="weightPokemon"></a>
+                    </div>
+                </div>
+                <!-- buttonPokemon contain function button that rotate pokemon -->
+                <div class="buttonPokemon">
+                    <button
+                        onclick="rotatePokemon()"
+                        class="button rotateButton"
+                    >
+                        rotate
+                    </button>
+                </div>
+            </div>
+            <!-- buttonsMenu contain function button that pass or back to the next pokemon -->
+            <div class="buttonsMenu">
+                <button onclick="pastPokemon()" class="button buttonPast">
+                    past
+                </button>
+                <button onclick="nextPokemon()" class="button buttonNext">
+                    next
+                </button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
